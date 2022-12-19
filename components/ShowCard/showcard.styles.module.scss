@@ -1,0 +1,21 @@
+@import "@styles/mediaquery.scss";
+
+.showCardWrap {
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: -webkit-fill-available;
+  }
+  @include mediaForMobile {
+    max-width: 50%;
+    overflow: hidden;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}

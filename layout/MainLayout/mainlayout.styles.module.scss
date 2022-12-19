@@ -1,0 +1,27 @@
+.header {
+  background-color: var(--main-bg-color);
+  color: #fff;
+  height: 100px;
+  width: 100%;
+  header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+
+    display: inline-flex;
+    align-items: baseline;
+    i {
+      font-size: 30px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: var(--main-bg-color);
+}
